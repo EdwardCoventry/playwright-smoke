@@ -1,0 +1,12 @@
+{
+  "name": "playwright-smoke",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke": "node run.mjs",
+    "smoke:build": "node run.mjs --build"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
