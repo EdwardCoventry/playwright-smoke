@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tasks": {
+    "check": [
+      {
+        "name": "CLI inventory",
+        "command": ["npm", "run", "smoke", "--", "--list"],
+        "cwd": "."
+      },
+      {
+        "name": "JavaScript syntax",
+        "command": ["node", "--check", "run.mjs"],
+        "cwd": "."
+      }
+    ]
+  }
+}
